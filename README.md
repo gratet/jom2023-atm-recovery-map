@@ -1,3 +1,4 @@
+# Exploring the public bus ridership loss and recovery during the COVID-19 pandemic: a spatiotemporal analysis using smart card data
 This repository contains the scripts and Dockerfile necessary to reproduce the cartographic and data analysis work conducted in our recent publication:
 
 Benito Zaragozí, Aaron Gutiérrez, Xavier Delclòs-Alió & Daniel Miravet (2023) **Exploring the public bus ridership loss and recovery during the COVID-19 pandemic: a spatiotemporal analysis using smart card data**, Journal of Maps, 19:1, DOI: [10.1080/17445647.2023.2231022](https://doi.org/10.1080/17445647.2023.2231022)
