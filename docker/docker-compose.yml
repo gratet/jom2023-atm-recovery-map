@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+
+  rstudio:
+    build:
+      context: ./lib/dockers
+      dockerfile: Dockerfile
+#    image: geourv/jom_atm:latest
+    environment:
+      USER: rstudio
+      PASSWORD: rstudio1
+      ROOT: "FALSE"
+    volumes:
+      - .:/home/rstudio
+    ports:
+      - "8787:8787"
+    networks:
+      - R
+
+networks:
+  R:
+    driver: bridge
